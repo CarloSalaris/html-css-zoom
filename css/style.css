@@ -1,0 +1,129 @@
+/* regole generali */
+
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+/* INTESTAZIONE fixed */
+
+header {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    color: #ffffff;
+}
+
+.top-control {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+} 
+
+/* MAIN Scroll*/
+
+main {
+    height: 100%;
+    padding: 150px 100px;
+    overflow: scroll;
+}
+
+.item-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.item {
+    width: 12%;
+}
+
+/* FOOTER fixed*/
+
+footer {
+    height: 100px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    color:#ffffff;
+}
+
+.av-control {
+    width: 200px;
+    height: 100%;
+}
+
+.main-control {
+    width: 600px;
+    height: 100%;
+}
+
+.end-control {
+    width: 200px;
+    height: 100%;
+    background-color: #4a4a4a;
+    color: red;
+}
+
+
+
+/* DEBUG */
+
+
+.top-control {
+    border: dotted 3px blueviolet
+}
+
+main {
+    background-color: darkkhaki;
+}
+
+.item-container {
+    border: dotted 5px cornflowerblue;
+}
+
+.item {
+    height: 120px;
+    border: dotted 3px blueviolet
+}
+
+.av-control {
+    width: 200px;
+    height: 100%;
+    border: dotted 5px blueviolet;
+}
+
+.main-control {
+    width: 600px;
+    height: 100%;
+    border: dotted 5px blueviolet;
+}
