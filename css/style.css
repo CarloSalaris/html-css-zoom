@@ -14,6 +14,7 @@ body {
 
 .wrapper {
     height: 100vh;
+    background-color: black;
 }
 
 a {
@@ -23,13 +24,6 @@ a {
 
 ul {
     list-style-type: none;
-}
-
-.fixed {
-    position: fixed;
-    left: 0;
-    width: 100%;
-    z-index: 900;
 }
 
 button {
@@ -47,10 +41,12 @@ button {
 /* INTESTAZIONE fixed */
 
 header {
-    min-height: 50px;
+    height: 50px;
     top: 0;
     background-color: black;
     color: #ffffff;
+    position: relative;
+    z-index: 900;
 }
 
 .top-control {
@@ -64,8 +60,8 @@ header {
 /* MAIN Scroll*/
 
 main {
-    height: 100%;
-    padding: 100px;
+    height: calc(100vh - 140px);
+    padding: 50px 5%;
     overflow: scroll;
 }
 
@@ -100,12 +96,14 @@ main {
 /* FOOTER fixed*/
 
 footer {
-    min-height: 90px;
+    height: 90px;
     bottom: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #222222;
     color:#ffffff;
+    z-index: 900;
 }
 
 .av-control {
@@ -133,7 +131,7 @@ footer {
 
 .end-control {
     width: 200px;
-    min-height: 100%;
+    height: 100%;
     background-color: #4a4a4a;
     color: red;
     text-align: center;
