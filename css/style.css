@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 18px;
     color: #ffffff;
 }
 
@@ -31,10 +32,22 @@ ul {
     z-index: 900;
 }
 
+button {
+    font-size: inherit;
+    background-color: #4a4a4a; 
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    
+}
+
 /* INTESTAZIONE fixed */
 
 header {
-    height: 50px;
+    min-height: 50px;
     top: 0;
     background-color: black;
     color: #ffffff;
@@ -42,9 +55,11 @@ header {
 
 .top-control {
     position: absolute;
-    top: 5px;
-    right: 5px;
+    top: 50%;
+    right: 10px;
+    transform: translate(0, -50%);
 } 
+
 
 /* MAIN Scroll*/
 
@@ -63,19 +78,29 @@ main {
 }
 
 .item {
-    min-width: 12%;
+    min-width: 100px;
     position: relative;
 }
 
 .item img {
+    display: block;
     max-width: 100%;
-    max-height: 100%;
+
+    /* max-height: 100%; */
+}
+
+.item .name {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 5px;
 }
 
 /* FOOTER fixed*/
 
 footer {
-    height: 100px;
+    height: 85px;
     bottom: 0;
     display: flex;
     justify-content: space-between;
@@ -98,6 +123,16 @@ footer {
     height: 100%;
     background-color: #4a4a4a;
     color: red;
+    text-align: center;
+    position: relative;
+
+}
+
+.end-control span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 
@@ -105,7 +140,7 @@ footer {
 /* DEBUG */
 
 
-.top-control {
+/* .top-control {
     border: dotted 3px blueviolet
 }
 
@@ -131,4 +166,4 @@ main {
     width: 600px;
     height: 100%;
     border: dotted 5px blueviolet;
-}
+} */
