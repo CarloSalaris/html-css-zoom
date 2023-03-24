@@ -110,8 +110,12 @@ footer {
     height: 100%;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
     padding: 0 10px;
+}
+
+.icon-up {
+    gap: 0;
 }
 
     /* Modello icona */
@@ -127,6 +131,10 @@ footer {
 
     .fa-share-from-square {
         color: green;
+    }
+
+    .control button {
+        background-color: inherit;
     }
 
 .end-control {
