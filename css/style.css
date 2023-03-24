@@ -62,7 +62,7 @@ header {
 main {
     height: calc(100vh - 140px);
     padding: 50px 5%;
-    overflow: scroll;
+    overflow: auto;
 }
 
 .item-container {
