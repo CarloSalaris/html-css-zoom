@@ -41,29 +41,26 @@ button {
 /* INTESTAZIONE fixed */
 
 header {
-    height: 50px;
-    top: 0;
+    height: 60px;
     background-color: black;
     color: #ffffff;
-    position: relative;
     z-index: 900;
-}
-
-.top-control {
-    /* position: absolute;
-    top: 50%;
-    right: 10px;
-    transform: translate(0, -50%); */
     display: flex;
     justify-content: flex-end;
     align-items: center;
-} 
+}
+
+/* .top-control {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}  */
 
 
 /* MAIN Scroll*/
 
 main {
-    height: calc(100vh - 140px);
+    height: calc(100% - 150px);
     padding: 50px 5%;
     overflow: auto;
 }
