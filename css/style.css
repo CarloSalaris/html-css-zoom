@@ -106,7 +106,7 @@ footer {
     z-index: 900;
 }
 
-.control {
+.control, .icon-up {
     height: 100%;
     display: flex;
     align-items: center;
