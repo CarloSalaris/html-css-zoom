@@ -100,6 +100,22 @@ main {
     padding: 5px;
 }
 
+.item-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0;
+    transition: opacity .4s ease-in-out;
+}
+
+.item:hover .item-menu {
+    opacity: 1;
+}
+
+
 /* FOOTER*/
 
 footer {
