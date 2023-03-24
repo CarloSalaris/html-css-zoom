@@ -35,7 +35,22 @@ button {
     padding: 5px;
     margin: 5px;
     cursor: pointer;
+    transition: opacity .1s ease-in-out;
     
+}
+
+button:hover {
+    opacity: .6;
+}
+
+button:active {
+    background-color: #ffffffa9;
+    opacity: 1;
+}
+
+.control button:active {
+    background-color: #525050;
+    opacity: 1;
 }
 
 /* INTESTAZIONE*/
@@ -103,6 +118,7 @@ footer {
     align-items: center;
     gap: 10px;
     padding: 0 10px;
+    transition: all 1s ease-in-out;
 }
 
 .icon-up {
