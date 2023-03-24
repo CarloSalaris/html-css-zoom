@@ -44,12 +44,12 @@ button:hover {
 }
 
 button:active {
-    background-color: #ffffffa9;
+    background-color: #aca9a9a9;
     opacity: 1;
 }
 
 .control button:active {
-    background-color: #525050;
+    background-color: #525050a8;
     opacity: 1;
 }
 
@@ -113,6 +113,10 @@ main {
 
 .item:hover .item-menu {
     opacity: 1;
+}
+
+.item-menu:active {
+    background-color: #aca9a9a9;
 }
 
 
