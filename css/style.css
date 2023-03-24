@@ -38,7 +38,7 @@ button {
     
 }
 
-/* INTESTAZIONE fixed */
+/* INTESTAZIONE*/
 
 header {
     height: 60px;
@@ -49,13 +49,6 @@ header {
     justify-content: flex-end;
     align-items: center;
 }
-
-/* .top-control {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}  */
-
 
 /* MAIN Scroll*/
 
@@ -81,8 +74,6 @@ main {
 .item img {
     display: block;
     max-width: 100%;
-
-    /* max-height: 100%; */
 }
 
 .item .name {
@@ -93,7 +84,7 @@ main {
     padding: 5px;
 }
 
-/* FOOTER fixed*/
+/* FOOTER*/
 
 footer {
     height: 90px;
@@ -147,31 +138,14 @@ button.end-control  {
 
 /* DEBUG */
 
+/* header, footer, .item-container {
+    border: dotted 5px blueviolet;
+}
 
-/* .top-control {
-    border: dotted 3px blueviolet
+button,  .control, .item  {
+    border: dotted 3px rgb(226, 116, 43);
 }
 
 main {
-    background-color: darkkhaki;
-}
-
-.item-container {
-    border: dotted 5px cornflowerblue;
-}
-
-.item {
-    border: dotted 3px blueviolet
-}
-
-.av-control {
-    width: 200px;
-    height: 100%;
-    border: dotted 5px blueviolet;
-}
-
-.main-control {
-    width: 600px;
-    height: 100%;
-    border: dotted 5px blueviolet;
+    background-color: rgb(24, 187, 160);
 } */
